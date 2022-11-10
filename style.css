@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    margin-left: 40px;
+
+}
+.shopNow{
+    text-decoration: none;
+    text-align: center;
+}
+
+.image{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 50px;
+}
+.image img {
+    transition: transform 0.5s ease;
+}
+
+.image:hover{
+    transform: scale(1.03);
+}
+.row{
+    display: flex;
+    justify-content:space-around;
+
+
+}
+.imagecontent{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.second-card{
+    height: 35rem;
+    width: 100%;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
